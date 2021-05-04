@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
-  position: absolute;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -13,16 +12,12 @@ export const LogoContainer = styled.div`
 `;
 
 export const Logo = styled.img`
-  width: 35px;
-  height: 36.23px;
-  left: 150px;
-  top: 50px;
   margin-top: 50px;
   margin-right: 10px;
 `;
 
 export const LogoName = styled.span`
-  margin-top: 56.12px;
+  margin-top: 65.12px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -33,9 +28,10 @@ export const LogoName = styled.span`
 export const OptionContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 58.62px;
+  margin-top: 56.12px;
   font-style: normal;
   font-weight: normal;
+  gap: 20px;
 `;
 
 export const ItemsContainer = styled.button`
@@ -43,6 +39,7 @@ export const ItemsContainer = styled.button`
   font-size: 16px;
   line-height: 19px;
   color: #4f5665;
+  background-color: transparent;
 `;
 
 export const ActionContainer = styled.div`
@@ -51,7 +48,7 @@ export const ActionContainer = styled.div`
   margin-right: 150px;
   margin-top: 58.62px;
   font-style: normal;
-  font-weight: 500;
+  gap: 30px;
 `;
 
 export const SignInContainer = styled.button`
@@ -59,6 +56,7 @@ export const SignInContainer = styled.button`
   line-height: 19px;
   color: #0b132a;
   border: none;
+  background-color: transparent;
 `;
 
 export const SignUpContainer = styled.button`
@@ -68,4 +66,6 @@ export const SignUpContainer = styled.button`
   border: 1px solid #f53855;
   box-sizing: border-box;
   border-radius: 50px;
+  background-color: transparent;
+  padding: 13px 45px;
 `;
