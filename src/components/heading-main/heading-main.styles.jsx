@@ -49,5 +49,5 @@ export const ButtonIcon = styled.button`
 
 export const HeadingImage = styled.img`
   margin-right: 80px;
-  width: 540px;
+  width: 450px;
 `;

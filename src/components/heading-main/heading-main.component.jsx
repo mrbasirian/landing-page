@@ -11,7 +11,7 @@ import {
   HeadingImage,
 } from "./heading-main.styles";
 
-const Heading = () => {
+const HeadingMain = () => {
   return (
     <HeadingContainer>
       <HeadingTextBox>
@@ -29,4 +29,4 @@ const Heading = () => {
   );
 };
 
-export default Heading;
+export default HeadingMain;
