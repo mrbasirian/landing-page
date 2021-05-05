@@ -19,6 +19,7 @@ export const HeadingMainText = styled.div`
   line-height: 70px;
   color: #0b132a;
   margin-left: 150px;
+  text-align: left;
 `;
 
 export const HeadingSubText = styled.span`
@@ -29,6 +30,7 @@ export const HeadingSubText = styled.span`
   color: #4f5665;
   margin-left: 150px;
   margin-top: 20px;
+  text-align: left;
 `;
 
 export const ButtonIcon = styled.button`
