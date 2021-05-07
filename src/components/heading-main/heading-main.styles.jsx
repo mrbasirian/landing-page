@@ -15,6 +15,7 @@ export const HeadingTextBox = styled.div`
 `;
 
 export const HeadingMainText = styled.div`
+  font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-size: 50px;
@@ -29,6 +30,7 @@ export const MainBoldPart = styled.span`
 `;
 
 export const HeadingSubText = styled.div`
+  font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -39,10 +41,11 @@ export const HeadingSubText = styled.div`
 `;
 
 export const SubBoldPart = styled.span`
-  font-weight: 500;
+  font-weight: 600;
 `;
 
 export const ButtonIcon = styled.button`
+  font-family: Rubik;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -61,5 +64,5 @@ export const HeadingImage = styled.div`
 `;
 
 export const ImageDetails = styled.img`
-  width: 100%;
+  width: 150%;
 `;

@@ -18,6 +18,7 @@ export const Logo = styled.img`
 `;
 
 export const LogoName = styled.div`
+  font-family: Rubik;
   margin-top: 65.12px;
   font-weight: 500;
   font-size: 20px;
@@ -36,10 +37,11 @@ export const OptionContainer = styled.div`
   margin-top: 56.12px;
   font-style: normal;
   font-weight: normal;
-  gap: 20px;
+  gap: 25px;
 `;
 
 export const ItemsContainer = styled.button`
+  font-family: Rubik;
   border: none;
   font-size: 16px;
   line-height: 19px;
@@ -57,6 +59,7 @@ export const ActionContainer = styled.div`
 `;
 
 export const SignInContainer = styled.button`
+  font-family: Rubik;
   font-size: 16px;
   line-height: 19px;
   color: #0b132a;
@@ -65,6 +68,7 @@ export const SignInContainer = styled.button`
 `;
 
 export const SignUpContainer = styled.button`
+  font-family: Rubik;
   font-size: 16px;
   line-height: 19px;
   color: #f53855;

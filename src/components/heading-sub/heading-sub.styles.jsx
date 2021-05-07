@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const HeadingSubContainer = styled.div`
   display: flex;
-  justify-content: space-between;
   width: 800px;
   padding: 40px 112px;
   background: #ffffff;
   border-radius: 10px;
   margin-top: 120px;
   margin-left: 150px;
+  gap: 220px;
 `;
 
 export const ItemsContainer = styled.div`
@@ -48,6 +48,7 @@ export const LogoCount = styled.div`
 `;
 
 export const LogoName = styled.span`
+  font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
