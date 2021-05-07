@@ -6,6 +6,7 @@ import {
   LogoContainer,
   Logo,
   LogoName,
+  NameBoldPart,
   OptionContainer,
   ItemsContainer,
   ActionContainer,
@@ -19,7 +20,10 @@ class Header extends React.Component {
       <HeaderContainer>
         <LogoContainer>
           <Logo src={logo} alt="logo" />
-          <LogoName>LaslesVPN</LogoName>
+          <LogoName>
+            Lasles
+            <NameBoldPart>VPN</NameBoldPart>
+          </LogoName>
         </LogoContainer>
         <OptionContainer>
           <ItemsContainer>Features</ItemsContainer>

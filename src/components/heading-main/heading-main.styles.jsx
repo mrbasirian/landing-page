@@ -5,6 +5,8 @@ export const HeadingContainer = styled.div`
   justify-content: space-between;
   margin-top: 75px;
   gap: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
 `;
 
 export const HeadingTextBox = styled.div`
@@ -18,19 +20,26 @@ export const HeadingMainText = styled.div`
   font-size: 50px;
   line-height: 70px;
   color: #0b132a;
-  margin-left: 150px;
+
   text-align: left;
 `;
 
-export const HeadingSubText = styled.span`
+export const MainBoldPart = styled.span`
+  font-weight: 600;
+`;
+
+export const HeadingSubText = styled.div`
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: #4f5665;
-  margin-left: 150px;
   margin-top: 20px;
   text-align: left;
+`;
+
+export const SubBoldPart = styled.span`
+  font-weight: 500;
 `;
 
 export const ButtonIcon = styled.button`
@@ -41,13 +50,16 @@ export const ButtonIcon = styled.button`
   color: #ffffff;
   background: #f53838;
   border-radius: 10px;
+  border: none;
   padding: 17.5px 77.5px;
   width: 250px;
-  margin-left: 150px;
   margin-top: 50px;
 `;
 
-export const HeadingImage = styled.img`
-  margin-right: 80px;
-  width: 450px;
+export const HeadingImage = styled.div`
+  width: 711.24px;
+`;
+
+export const ImageDetails = styled.img`
+  width: 100%;
 `;

@@ -4,11 +4,12 @@ export const HeaderContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  margin-right: 150px;
+  margin-left: 150px;
 `;
 export const LogoContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-left: 150px;
 `;
 
 export const Logo = styled.img`
@@ -16,13 +17,17 @@ export const Logo = styled.img`
   margin-right: 10px;
 `;
 
-export const LogoName = styled.span`
+export const LogoName = styled.div`
   margin-top: 65.12px;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   font-style: normal;
   color: #0b132a;
+`;
+
+export const NameBoldPart = styled.span`
+  font-weight: 600;
 `;
 
 export const OptionContainer = styled.div`
