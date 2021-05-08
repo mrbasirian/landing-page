@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const PlanSection = styled.div`
   margin-left: 150px;
-  margin-right: 150;
   margin-top: 150px;
 `;
 
@@ -14,6 +13,7 @@ export const PlanMainText = styled.div`
   line-height: 50px;
   text-align: center;
   color: #0b132a;
+  margin-right: 50px;
 `;
 
 export const PlanSubText = styled.div`
@@ -25,6 +25,7 @@ export const PlanSubText = styled.div`
   text-align: center;
   color: #4f5665;
   margin-top: 20px;
+  margin-right: 50px;
 `;
 
 export const PlanSubTextN2 = styled.div`
@@ -35,6 +36,7 @@ export const PlanSubTextN2 = styled.div`
   line-height: 30px;
   text-align: center;
   color: #4f5665;
+  margin-right: 50px;
 `;
 
 export const PlanModels = styled.div`

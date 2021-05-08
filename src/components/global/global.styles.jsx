@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const GlobalSection = styled.div`
   margin-top: 150px;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 145px;
+  margin-right: 158px;
 `;
 
 export const GlobalMainText = styled.div`
@@ -14,6 +14,7 @@ export const GlobalMainText = styled.div`
   line-height: 50px;
   text-align: center;
   color: #0b132a;
+  margin-left: 125px;
 `;
 
 export const GlobalMainTextP2 = styled.div`
@@ -24,6 +25,7 @@ export const GlobalMainTextP2 = styled.div`
   line-height: 50px;
   text-align: center;
   color: #0b132a;
+  margin-left: 125px;
 `;
 
 export const GlobalSubText = styled.div`
@@ -35,6 +37,7 @@ export const GlobalSubText = styled.div`
   text-align: center;
   color: #4f5665;
   margin-top: 20px;
+  margin-left: 125px;
 `;
 
 export const GlobalSubTextP2 = styled.div`
@@ -45,6 +48,7 @@ export const GlobalSubTextP2 = styled.div`
   line-height: 30px;
   text-align: center;
   color: #4f5665;
+  margin-left: 125px;
 `;
 
 export const ImageBox = styled.div`
