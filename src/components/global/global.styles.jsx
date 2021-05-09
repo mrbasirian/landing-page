@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const GlobalSection = styled.div`
   margin-top: 150px;
-  margin-left: 145px;
-  margin-right: 158px;
+  margin-left: 150px;
+  margin-right: 150px;
 `;
 
 export const GlobalMainText = styled.div`
@@ -58,6 +58,7 @@ export const ImageBox = styled.div`
 
 export const ImageWorld = styled.img`
   width: 100%;
+  margin-left: 80px;
 `;
 
 export const LogoBox = styled.div`

@@ -7,6 +7,7 @@ import HeadingSub from "./components/heading-sub/heading-sub.component";
 import Features from "./components/features/features.component";
 import Plan from "./components/plan/plan.component";
 import Global from "./components/global/global.component";
+import Customer from "./components/customer/customer.component";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <Plan />
       <Global />
+      <Customer />
     </div>
   );
 }
