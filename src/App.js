@@ -9,6 +9,7 @@ import Plan from "./components/plan/plan.component";
 import Global from "./components/global/global.component";
 import Customer from "./components/customer/customer.component";
 import Subscribe from "./components/subscribe/subscribe.component";
+import Footer from "./pages/footer/footer.component";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Global />
       <Customer />
       <Subscribe />
+      <Footer />
     </div>
   );
 }
