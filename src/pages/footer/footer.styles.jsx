@@ -181,3 +181,18 @@ export const FooterButtonEarn = styled.button`
   right: 8px;
   margin-top: 10px;
 `;
+
+export const FooterButtonEngage = styled.button`
+  text-align: left;
+  border: none;
+  background: #ffffff;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  position: relative;
+  right: 8px;
+  margin-top: 10px;
+`;

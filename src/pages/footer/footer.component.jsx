@@ -12,6 +12,7 @@ import {
   FooterAppLogo,
   FooterButton,
   FooterButtonEarn,
+  FooterButtonEngage,
   FooterLogo,
   FooterSection,
   FooterSectionButton,
@@ -77,12 +78,12 @@ class Footer extends React.Component {
           </FooterSectionP2>
           <FooterSectionP3>
             <MainText>Engage</MainText>
-            <FooterButton>LaselesVPN ?</FooterButton>
-            <FooterButton>FAQ</FooterButton>
-            <FooterButton>Totorials</FooterButton>
-            <FooterButton>About Us</FooterButton>
-            <FooterButton>Privacy Policy</FooterButton>
-            <FooterButton>Terms of Service</FooterButton>
+            <FooterButtonEngage>LaselesVPN ?</FooterButtonEngage>
+            <FooterButtonEngage>FAQ</FooterButtonEngage>
+            <FooterButtonEngage>Totorials</FooterButtonEngage>
+            <FooterButtonEngage>About Us</FooterButtonEngage>
+            <FooterButtonEngage>Privacy Policy</FooterButtonEngage>
+            <FooterButtonEngage>Terms of Service</FooterButtonEngage>
           </FooterSectionP3>
         </FooterSectionButton>
         <FooterSectionButtonP2>
