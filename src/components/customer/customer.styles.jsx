@@ -238,6 +238,7 @@ export const ButtonArrowLeft = styled.button`
   color: #f53838;
   border-radius: 50px;
   padding: 20px 20px;
+  background: #f6f6f6;
 `;
 
 export const LeftArrow = styled.img`
