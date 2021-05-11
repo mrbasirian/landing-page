@@ -7,13 +7,24 @@ export const HeadingSubContainer = styled.div`
   background: #ffffff;
   border-radius: 10px;
   margin-top: 120px;
-  margin-left: 150px;
-  gap: 220px;
+  margin-left: 120px;
+  gap: 150px;
 `;
 
 export const ItemsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  border-right: 2px solid #eeeff2;
+  &:nth-child(3) {
+    border: none;
+  }
+  margin-left: 110px;
+`;
+export const Details = styled.div`
+  display: flex;
+  position: relative;
+  right: 120px;
+  padding: 30px 0;
 `;
 
 export const LogoUser = styled.img`
